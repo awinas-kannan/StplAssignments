@@ -1,0 +1,56 @@
+
+
+<beans default-lazy-init="true"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+	<mvc:annotation-driven />
+	<context:component-scan base-package="com.phonebook.awinas" />
+
+
+
+
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.jdbc.batch_size">100</prop>
+				<prop key="hibernate.connection.autocommit">false</prop>
+			</props>
+		</property>
+
+		<property name="mappingResources">
+			<list>
+				<!-- <value>/login.hbm.xml</value> -->
+				<value>/login.hbm.xml</value>
+				<value>/Usercontactdetails.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:jboss/datasources/jdbc/traineeDataPool" />
+		<property name="lookupOnStartup" value="true" />
+	</bean>
+
+	<!-- This bean is for showing for which service the sesssion factory is 
+		user -->
+	<!-- we can use @service insted of this -->
+	<!-- <bean id="LoginService" class="com.phonebook.awinas.dao.LoginDao"> 
+		<property name="sessionFactory"> <ref bean="sessionFactory" /> </property> 
+		</bean> -->
+	<!-- <bean id="BookService" class="com.phonebook.awinas.dao.PhoneBookDao"> 
+		<property name="sessionFactory"> <ref bean="sessionFactory" /> </property> 
+		</bean> -->
+
+
+</beans>

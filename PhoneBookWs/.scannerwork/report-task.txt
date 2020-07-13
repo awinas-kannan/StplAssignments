@@ -1,0 +1,6 @@
+projectKey=PhoneBookWs
+serverUrl=http://localhost:9000
+serverVersion=6.4.0.25310
+dashboardUrl=http://localhost:9000/dashboard/index/PhoneBookWs
+ceTaskId=AWXW46I9OjZRu6wTicjZ
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWXW46I9OjZRu6wTicjZ

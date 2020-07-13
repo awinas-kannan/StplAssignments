@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.awinas.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddController</servlet-name>
+  	<display-name>AddController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.awinas.AddController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DisplayController</servlet-name>
+  	<display-name>DisplayController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.awinas.DisplayController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteController</servlet-name>
+  	<display-name>DeleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.awinas.DeleteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RankController</servlet-name>
+  	<display-name>RankController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.awinas.RankController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddController</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DisplayController</servlet-name>
+  	<url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteController</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RankController</servlet-name>
+  	<url-pattern>/rank</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

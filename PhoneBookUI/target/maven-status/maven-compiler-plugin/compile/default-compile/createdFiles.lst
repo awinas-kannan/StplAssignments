@@ -1,0 +1,16 @@
+com\phonebook\awinas\dynamicclass\GtnUIFrameworkPhoneBookDynamicClassFiller.class
+com\phonebook\awinas\action\GtnFrameworkAddContactAction.class
+com\phonebook\awinas\config\ViewTabComponentList.class
+com\phonebook\awinas\config\DeleteTabComponentList.class
+com\phonebook\awinas\init\PhonebookUiInit.class
+com\phonebook\awinas\action\GtnFrameworkEditContactAction.class
+com\phonebook\awinas\action\GtnFrameworkDeleteContactAction.class
+com\phonebook\awinas\action\GtnFrameworkUpdateContactAction.class
+com\phonebook\awinas\config\PhoneBookTabSheetConfig.class
+com\phonebook\awinas\action\GtnFrameworkViewContactAction.class
+com\phonebook\awinas\config\EditTabComponentList.class
+com\phonebook\awinas\config\LoginTabSheetConfig.class
+com\phonebook\awinas\config\AddTabComponentsList.class
+com\phonebook\awinas\action\GtnFrameworkUserSignUpAction.class
+com\phonebook\awinas\action\GtnFrameworkUserLoginAction.class
+com\phonebook\awinas\config\GtnUIFrameworkPhoneBookMainConfig.class

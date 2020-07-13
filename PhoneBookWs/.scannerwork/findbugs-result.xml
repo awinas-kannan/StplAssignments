@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC2" sequence="0" timestamp="1536908165548" analysisTimestamp="1536908554975" release="">
+  <Project>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\bi\AbstractCommon.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\bi\Iunique.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\AddContactController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\DeleteController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\EditContactController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\LoginController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\SignUpController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\UpdateContactController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\controllers\ViewContactController.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\dao\LoginDao.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\src\main\java\com\phonebook\awinas\dao\PhoneBookDao.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\bi\AbstractCommon.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\bi\Iunique.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\AddContactController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\DeleteController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\EditContactController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\LoginController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\SignUpController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\UpdateContactController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\controllers\ViewContactController.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\dao\LoginDao.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookWs\target\classes\com\phonebook\awinas\dao\PhoneBookDao.class</Jar>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookWs\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookWs\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookWs\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>D:\AWINAS KANNAN\PhoneBookWs\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="19">
+    <MissingClass>com.stpl.gtn.gtn2o.ws.components.GtnUIFrameworkDataTable</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.logger.GtnWSLogger</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.PhoneBookRequest</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.PhoneBookResponse</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.UserContactDetails</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.UserDetails</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.request.GtnUIFrameworkWebserviceRequest</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.response.GtnSerachResponse</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.response.GtnUIFrameworkWebserviceResponse</MissingClass>
+    <MissingClass>org.hibernate.Criteria</MissingClass>
+    <MissingClass>org.hibernate.Query</MissingClass>
+    <MissingClass>org.hibernate.Session</MissingClass>
+    <MissingClass>org.hibernate.SessionFactory</MissingClass>
+    <MissingClass>org.hibernate.Transaction</MissingClass>
+    <MissingClass>org.hibernate.criterion.Conjunction</MissingClass>
+    <MissingClass>org.hibernate.criterion.LogicalExpression</MissingClass>
+    <MissingClass>org.hibernate.criterion.Restrictions</MissingClass>
+    <MissingClass>org.hibernate.criterion.SimpleExpression</MissingClass>
+    <MissingClass>org.hibernate.exception.ConstraintViolationException</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 14 Sep 2018 12:26:05 +0530" total_classes="11" referenced_classes="25" total_bugs="0" total_size="267" num_packages="3" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="8.45" clock_seconds="9.11" peak_mbytes="144.61" alloc_mbytes="247.50" gc_seconds="0.31">
+    <FileStats path="com/phonebook/awinas/bi/AbstractCommon.java" bugCount="0" size="14"/>
+    <FileStats path="com/phonebook/awinas/bi/Iunique.java" bugCount="0" size="5"/>
+    <FileStats path="com/phonebook/awinas/controllers/AddContactController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/DeleteController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/EditContactController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/LoginController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/SignUpController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/UpdateContactController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/controllers/ViewContactController.java" bugCount="0" size="11"/>
+    <FileStats path="com/phonebook/awinas/dao/LoginDao.java" bugCount="0" size="43"/>
+    <FileStats path="com/phonebook/awinas/dao/PhoneBookDao.java" bugCount="0" size="128"/>
+    <PackageStats package="com.phonebook.awinas.bi" total_bugs="0" total_types="2" total_size="19">
+      <ClassStats class="com.phonebook.awinas.bi.AbstractCommon" sourceFile="AbstractCommon.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.bi.Iunique" sourceFile="Iunique.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.phonebook.awinas.controllers" total_bugs="0" total_types="7" total_size="77">
+      <ClassStats class="com.phonebook.awinas.controllers.AddContactController" sourceFile="AddContactController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.DeleteController" sourceFile="DeleteController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.EditContactController" sourceFile="EditContactController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.LoginController" sourceFile="LoginController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.SignUpController" sourceFile="SignUpController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.UpdateContactController" sourceFile="UpdateContactController.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.controllers.ViewContactController" sourceFile="ViewContactController.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.phonebook.awinas.dao" total_bugs="0" total_types="2" total_size="171">
+      <ClassStats class="com.phonebook.awinas.dao.LoginDao" sourceFile="LoginDao.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.dao.PhoneBookDao" sourceFile="PhoneBookDao.java" interface="false" size="128" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="600" invocations="364" avgMicrosecondsPerInvocation="1648" maxMicrosecondsPerInvocation="99469" standardDeviationMicrosecondsPerInvocation="6519"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="506" invocations="381" avgMicrosecondsPerInvocation="1329" maxMicrosecondsPerInvocation="45890" standardDeviationMicrosecondsPerInvocation="3349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="141" invocations="126" avgMicrosecondsPerInvocation="1122" maxMicrosecondsPerInvocation="67621" standardDeviationMicrosecondsPerInvocation="6127"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="140" invocations="39" avgMicrosecondsPerInvocation="3605" maxMicrosecondsPerInvocation="117901" standardDeviationMicrosecondsPerInvocation="18602"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="140" invocations="34" avgMicrosecondsPerInvocation="4129" maxMicrosecondsPerInvocation="49190" standardDeviationMicrosecondsPerInvocation="9747"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="130" invocations="39" avgMicrosecondsPerInvocation="3341" maxMicrosecondsPerInvocation="38605" standardDeviationMicrosecondsPerInvocation="7840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="129" invocations="25" avgMicrosecondsPerInvocation="5199" maxMicrosecondsPerInvocation="50695" standardDeviationMicrosecondsPerInvocation="10650"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="110" invocations="34" avgMicrosecondsPerInvocation="3242" maxMicrosecondsPerInvocation="33894" standardDeviationMicrosecondsPerInvocation="6783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="110" invocations="35" avgMicrosecondsPerInvocation="3149" maxMicrosecondsPerInvocation="28379" standardDeviationMicrosecondsPerInvocation="5673"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="107" invocations="34" avgMicrosecondsPerInvocation="3167" maxMicrosecondsPerInvocation="19424" standardDeviationMicrosecondsPerInvocation="5099"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="107" invocations="35" avgMicrosecondsPerInvocation="3059" maxMicrosecondsPerInvocation="31299" standardDeviationMicrosecondsPerInvocation="6101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs" totalMilliseconds="94" invocations="11" avgMicrosecondsPerInvocation="8626" maxMicrosecondsPerInvocation="90303" standardDeviationMicrosecondsPerInvocation="25838"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="90" invocations="107" avgMicrosecondsPerInvocation="843" maxMicrosecondsPerInvocation="7390" standardDeviationMicrosecondsPerInvocation="1148"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="88" invocations="25" avgMicrosecondsPerInvocation="3524" maxMicrosecondsPerInvocation="25272" standardDeviationMicrosecondsPerInvocation="6151"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="86" invocations="305" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="2567" standardDeviationMicrosecondsPerInvocation="451"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="80" invocations="34" avgMicrosecondsPerInvocation="2355" maxMicrosecondsPerInvocation="17670" standardDeviationMicrosecondsPerInvocation="4329"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="74" invocations="25" avgMicrosecondsPerInvocation="2984" maxMicrosecondsPerInvocation="20835" standardDeviationMicrosecondsPerInvocation="4871"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.ExternalConfigurationControlDetector" totalMilliseconds="68" invocations="11" avgMicrosecondsPerInvocation="6212" maxMicrosecondsPerInvocation="58442" standardDeviationMicrosecondsPerInvocation="16670"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.FileUploadFilenameDetector" totalMilliseconds="64" invocations="11" avgMicrosecondsPerInvocation="5831" maxMicrosecondsPerInvocation="62925" standardDeviationMicrosecondsPerInvocation="18055"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="50" invocations="25" avgMicrosecondsPerInvocation="2004" maxMicrosecondsPerInvocation="22291" standardDeviationMicrosecondsPerInvocation="4511"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="48" invocations="25" avgMicrosecondsPerInvocation="1946" maxMicrosecondsPerInvocation="39025" standardDeviationMicrosecondsPerInvocation="7782"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="44" invocations="34" avgMicrosecondsPerInvocation="1305" maxMicrosecondsPerInvocation="7303" standardDeviationMicrosecondsPerInvocation="2026"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="44" invocations="11" avgMicrosecondsPerInvocation="4032" maxMicrosecondsPerInvocation="32319" standardDeviationMicrosecondsPerInvocation="9360"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="42" invocations="25" avgMicrosecondsPerInvocation="1703" maxMicrosecondsPerInvocation="13728" standardDeviationMicrosecondsPerInvocation="3254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="40" invocations="25" avgMicrosecondsPerInvocation="1605" maxMicrosecondsPerInvocation="24835" standardDeviationMicrosecondsPerInvocation="4854"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="38" invocations="11" avgMicrosecondsPerInvocation="3501" maxMicrosecondsPerInvocation="31709" standardDeviationMicrosecondsPerInvocation="8951"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="38" invocations="25" avgMicrosecondsPerInvocation="1534" maxMicrosecondsPerInvocation="13717" standardDeviationMicrosecondsPerInvocation="3303"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="32" invocations="11" avgMicrosecondsPerInvocation="2959" maxMicrosecondsPerInvocation="26662" standardDeviationMicrosecondsPerInvocation="7577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="31" invocations="11" avgMicrosecondsPerInvocation="2869" maxMicrosecondsPerInvocation="22505" standardDeviationMicrosecondsPerInvocation="6307"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="30" invocations="25" avgMicrosecondsPerInvocation="1218" maxMicrosecondsPerInvocation="12671" standardDeviationMicrosecondsPerInvocation="2759"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="30" invocations="3793" avgMicrosecondsPerInvocation="7" maxMicrosecondsPerInvocation="543" standardDeviationMicrosecondsPerInvocation="12"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.ImmatureClass" totalMilliseconds="28" invocations="11" avgMicrosecondsPerInvocation="2625" maxMicrosecondsPerInvocation="16980" standardDeviationMicrosecondsPerInvocation="4956"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.OverlyPermissiveMethod" totalMilliseconds="27" invocations="11" avgMicrosecondsPerInvocation="2518" maxMicrosecondsPerInvocation="25600" standardDeviationMicrosecondsPerInvocation="7305"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="27" invocations="25" avgMicrosecondsPerInvocation="1096" maxMicrosecondsPerInvocation="8472" standardDeviationMicrosecondsPerInvocation="1871"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="25" invocations="11" avgMicrosecondsPerInvocation="2343" maxMicrosecondsPerInvocation="19544" standardDeviationMicrosecondsPerInvocation="5570"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="23" invocations="640" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="6062" standardDeviationMicrosecondsPerInvocation="285"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="23" invocations="34" avgMicrosecondsPerInvocation="678" maxMicrosecondsPerInvocation="6677" standardDeviationMicrosecondsPerInvocation="1397"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="22" invocations="11" avgMicrosecondsPerInvocation="2087" maxMicrosecondsPerInvocation="12167" standardDeviationMicrosecondsPerInvocation="3787"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="885" maxMicrosecondsPerInvocation="8686" standardDeviationMicrosecondsPerInvocation="1921"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="22" invocations="11" avgMicrosecondsPerInvocation="2004" maxMicrosecondsPerInvocation="12099" standardDeviationMicrosecondsPerInvocation="3806"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.LocalSynchronizedCollection" totalMilliseconds="20" invocations="11" avgMicrosecondsPerInvocation="1827" maxMicrosecondsPerInvocation="10291" standardDeviationMicrosecondsPerInvocation="3130"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="18" invocations="315" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="13971" standardDeviationMicrosecondsPerInvocation="785"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="17" invocations="11" avgMicrosecondsPerInvocation="1610" maxMicrosecondsPerInvocation="9101" standardDeviationMicrosecondsPerInvocation="2976"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="17" invocations="11" avgMicrosecondsPerInvocation="1581" maxMicrosecondsPerInvocation="10758" standardDeviationMicrosecondsPerInvocation="3177"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetector" totalMilliseconds="17" invocations="11" avgMicrosecondsPerInvocation="1580" maxMicrosecondsPerInvocation="10678" standardDeviationMicrosecondsPerInvocation="3108"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="17" invocations="11" avgMicrosecondsPerInvocation="1565" maxMicrosecondsPerInvocation="11440" standardDeviationMicrosecondsPerInvocation="3306"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="16" invocations="34" avgMicrosecondsPerInvocation="497" maxMicrosecondsPerInvocation="3709" standardDeviationMicrosecondsPerInvocation="915"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="16" invocations="34" avgMicrosecondsPerInvocation="494" maxMicrosecondsPerInvocation="5832" standardDeviationMicrosecondsPerInvocation="1033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="16" invocations="11" avgMicrosecondsPerInvocation="1517" maxMicrosecondsPerInvocation="9383" standardDeviationMicrosecondsPerInvocation="2614"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

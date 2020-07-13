@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.stpl.gtn.gtn2o.ws.phonebook.UserDetails" schema="Awinas"
+		table="USERDETAILS">
+
+	 <id name="id" type="int">
+      <column length="30" name="USER_ID" not-null="true" unique="true" />
+    </id>
+		<property name="name" type="string">
+			<column length="30" name="USER_NAME" not-null="true" />
+		</property>
+		</class>
+</hibernate-mapping>

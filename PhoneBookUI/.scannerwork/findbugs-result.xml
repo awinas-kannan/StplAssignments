@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC2" sequence="0" timestamp="1536644004248" analysisTimestamp="1536644230029" release="">
+  <Project>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkAddContactAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkDeleteContactAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkEditContactAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkUpdateContactAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkUserLoginAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkUserSignUpAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\action\GtnFrameworkViewContactAction.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\AddTabComponentsList.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\DeleteTabComponentList.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\EditTabComponentList.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\GtnUIFrameworkPhoneBookMainConfig.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\LoginTabSheetConfig.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\PhoneBookTabSheetConfig.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\config\ViewTabComponentList.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\dynamicclass\GtnUIFrameworkPhoneBookDynamicClassFiller.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\src\main\java\com\phonebook\awinas\init\PhonebookUiInit.java</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkAddContactAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkDeleteContactAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkEditContactAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkUpdateContactAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkUserLoginAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkUserSignUpAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\action\GtnFrameworkViewContactAction.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\AddTabComponentsList.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\DeleteTabComponentList.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\EditTabComponentList.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\GtnUIFrameworkPhoneBookMainConfig.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\LoginTabSheetConfig.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\PhoneBookTabSheetConfig.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\config\ViewTabComponentList.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\dynamicclass\GtnUIFrameworkPhoneBookDynamicClassFiller.class</Jar>
+    <Jar>D:\AWINAS KANNAN\PhoneBookUI\target\classes\com\phonebook\awinas\init\PhonebookUiInit.class</Jar>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookUI\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookUI\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\AWINAS KANNAN\PhoneBookUI\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>D:\AWINAS KANNAN\PhoneBookUI\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="35">
+    <MissingClass>com.stpl.gtn.gtn2o.config.GtnFrameworkComponentConfigProvider</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.action.GtnUIFrameWorkAction</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.action.GtnUIFrameWorkActionConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.action.executor.GtnUIFrameworkActionExecutor</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.component.GtnUIFrameworkComponentConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.component.combo.GtnUIFrameworkComboBoxConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.component.grid.GtnUIFrameworkGridComponentConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.component.tabsheet.GtnUIFrameworkTabConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.component.textbox.GtnUIFrameworkTextBoxConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.config.GtnUIFrameworkRootConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.GtnUIFrameworkEngine</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.GtnUIFrameworkGlobalUI</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.base.GtnUIDynamicObjectFiller</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.base.GtnUIFrameworkBaseComponent</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.base.GtnUIFrameworkDynamicClass</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.engine.view.GtnUIFrameworkViewConfig</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.type.GtnUIFrameworkActionType</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ui.framework.type.GtnUIFrameworkComponentType</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.GtnUIFrameworkWebServiceClient</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.bean.GtnWsRecordBean</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.components.GtnUIFrameworkDataRow</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.components.GtnUIFrameworkDataTable</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.exception.GtnFrameworkGeneralException</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.exception.GtnFrameworkValidationFailedException</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.logger.GtnWSLogger</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.PhoneBookRequest</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.PhoneBookResponse</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.UserContactDetails</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.phonebook.UserDetails</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.request.GtnUIFrameworkWebserviceRequest</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.response.GtnSerachResponse</MissingClass>
+    <MissingClass>com.stpl.gtn.gtn2o.ws.response.GtnUIFrameworkWebserviceResponse</MissingClass>
+    <MissingClass>com.vaadin.navigator.Navigator</MissingClass>
+    <MissingClass>com.vaadin.ui.Notification</MissingClass>
+    <MissingClass>com.vaadin.ui.UI</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 11 Sep 2018 11:03:24 +0530" total_classes="16" referenced_classes="32" total_bugs="0" total_size="567" num_packages="4" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="13.47" clock_seconds="13.49" peak_mbytes="165.93" alloc_mbytes="247.50" gc_seconds="0.83">
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkAddContactAction.java" bugCount="0" size="48"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkDeleteContactAction.java" bugCount="0" size="29"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkEditContactAction.java" bugCount="0" size="43"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkUpdateContactAction.java" bugCount="0" size="50"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkUserLoginAction.java" bugCount="0" size="37"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkUserSignUpAction.java" bugCount="0" size="35"/>
+    <FileStats path="com/phonebook/awinas/action/GtnFrameworkViewContactAction.java" bugCount="0" size="33"/>
+    <FileStats path="com/phonebook/awinas/config/AddTabComponentsList.java" bugCount="0" size="29"/>
+    <FileStats path="com/phonebook/awinas/config/DeleteTabComponentList.java" bugCount="0" size="39"/>
+    <FileStats path="com/phonebook/awinas/config/EditTabComponentList.java" bugCount="0" size="68"/>
+    <FileStats path="com/phonebook/awinas/config/GtnUIFrameworkPhoneBookMainConfig.java" bugCount="0" size="10"/>
+    <FileStats path="com/phonebook/awinas/config/LoginTabSheetConfig.java" bugCount="0" size="54"/>
+    <FileStats path="com/phonebook/awinas/config/PhoneBookTabSheetConfig.java" bugCount="0" size="42"/>
+    <FileStats path="com/phonebook/awinas/config/ViewTabComponentList.java" bugCount="0" size="27"/>
+    <FileStats path="com/phonebook/awinas/dynamicclass/GtnUIFrameworkPhoneBookDynamicClassFiller.java" bugCount="0" size="12"/>
+    <FileStats path="com/phonebook/awinas/init/PhonebookUiInit.java" bugCount="0" size="11"/>
+    <PackageStats package="com.phonebook.awinas.action" total_bugs="0" total_types="7" total_size="275">
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkAddContactAction" sourceFile="GtnFrameworkAddContactAction.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkDeleteContactAction" sourceFile="GtnFrameworkDeleteContactAction.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkEditContactAction" sourceFile="GtnFrameworkEditContactAction.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkUpdateContactAction" sourceFile="GtnFrameworkUpdateContactAction.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkUserLoginAction" sourceFile="GtnFrameworkUserLoginAction.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkUserSignUpAction" sourceFile="GtnFrameworkUserSignUpAction.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.action.GtnFrameworkViewContactAction" sourceFile="GtnFrameworkViewContactAction.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.phonebook.awinas.config" total_bugs="0" total_types="7" total_size="269">
+      <ClassStats class="com.phonebook.awinas.config.AddTabComponentsList" sourceFile="AddTabComponentsList.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.DeleteTabComponentList" sourceFile="DeleteTabComponentList.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.EditTabComponentList" sourceFile="EditTabComponentList.java" interface="false" size="68" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.GtnUIFrameworkPhoneBookMainConfig" sourceFile="GtnUIFrameworkPhoneBookMainConfig.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.LoginTabSheetConfig" sourceFile="LoginTabSheetConfig.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.PhoneBookTabSheetConfig" sourceFile="PhoneBookTabSheetConfig.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.phonebook.awinas.config.ViewTabComponentList" sourceFile="ViewTabComponentList.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.phonebook.awinas.dynamicclass" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="com.phonebook.awinas.dynamicclass.GtnUIFrameworkPhoneBookDynamicClassFiller" sourceFile="GtnUIFrameworkPhoneBookDynamicClassFiller.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.phonebook.awinas.init" total_bugs="0" total_types="1" total_size="11">
+      <ClassStats class="com.phonebook.awinas.init.PhonebookUiInit" sourceFile="PhonebookUiInit.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1048" invocations="525" avgMicrosecondsPerInvocation="1997" maxMicrosecondsPerInvocation="42142" standardDeviationMicrosecondsPerInvocation="4376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="736" invocations="502" avgMicrosecondsPerInvocation="1467" maxMicrosecondsPerInvocation="96405" standardDeviationMicrosecondsPerInvocation="6039"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationAttributeDetector" totalMilliseconds="412" invocations="16" avgMicrosecondsPerInvocation="25766" maxMicrosecondsPerInvocation="380884" standardDeviationMicrosecondsPerInvocation="91698"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="287" invocations="53" avgMicrosecondsPerInvocation="5429" maxMicrosecondsPerInvocation="57744" standardDeviationMicrosecondsPerInvocation="12060"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="272" invocations="53" avgMicrosecondsPerInvocation="5147" maxMicrosecondsPerInvocation="43514" standardDeviationMicrosecondsPerInvocation="10643"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="230" invocations="163" avgMicrosecondsPerInvocation="1413" maxMicrosecondsPerInvocation="108425" standardDeviationMicrosecondsPerInvocation="9315"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="214" invocations="32" avgMicrosecondsPerInvocation="6695" maxMicrosecondsPerInvocation="44899" standardDeviationMicrosecondsPerInvocation="10505"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="202" invocations="53" avgMicrosecondsPerInvocation="3826" maxMicrosecondsPerInvocation="47340" standardDeviationMicrosecondsPerInvocation="8201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="200" invocations="53" avgMicrosecondsPerInvocation="3780" maxMicrosecondsPerInvocation="43483" standardDeviationMicrosecondsPerInvocation="8650"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="198" invocations="53" avgMicrosecondsPerInvocation="3740" maxMicrosecondsPerInvocation="63956" standardDeviationMicrosecondsPerInvocation="10023"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="187" invocations="226" avgMicrosecondsPerInvocation="831" maxMicrosecondsPerInvocation="34454" standardDeviationMicrosecondsPerInvocation="2465"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="182" invocations="53" avgMicrosecondsPerInvocation="3441" maxMicrosecondsPerInvocation="37517" standardDeviationMicrosecondsPerInvocation="6690"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="174" invocations="45" avgMicrosecondsPerInvocation="3877" maxMicrosecondsPerInvocation="33669" standardDeviationMicrosecondsPerInvocation="8120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="169" invocations="53" avgMicrosecondsPerInvocation="3201" maxMicrosecondsPerInvocation="39085" standardDeviationMicrosecondsPerInvocation="7458"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="167" invocations="53" avgMicrosecondsPerInvocation="3166" maxMicrosecondsPerInvocation="132020" standardDeviationMicrosecondsPerInvocation="17916"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="149" invocations="32" avgMicrosecondsPerInvocation="4682" maxMicrosecondsPerInvocation="28481" standardDeviationMicrosecondsPerInvocation="7346"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="127" invocations="32" avgMicrosecondsPerInvocation="3987" maxMicrosecondsPerInvocation="23393" standardDeviationMicrosecondsPerInvocation="5257"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.OrphanedDOMNode" totalMilliseconds="108" invocations="16" avgMicrosecondsPerInvocation="6764" maxMicrosecondsPerInvocation="97395" standardDeviationMicrosecondsPerInvocation="23403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="94" invocations="425" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="3001" standardDeviationMicrosecondsPerInvocation="421"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="92" invocations="16" avgMicrosecondsPerInvocation="5809" maxMicrosecondsPerInvocation="57738" standardDeviationMicrosecondsPerInvocation="13464"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="84" invocations="16" avgMicrosecondsPerInvocation="5267" maxMicrosecondsPerInvocation="30732" standardDeviationMicrosecondsPerInvocation="8473"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="80" invocations="16" avgMicrosecondsPerInvocation="5028" maxMicrosecondsPerInvocation="35142" standardDeviationMicrosecondsPerInvocation="11007"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetector" totalMilliseconds="79" invocations="16" avgMicrosecondsPerInvocation="4964" maxMicrosecondsPerInvocation="51695" standardDeviationMicrosecondsPerInvocation="12098"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass" totalMilliseconds="75" invocations="16" avgMicrosecondsPerInvocation="4695" maxMicrosecondsPerInvocation="40656" standardDeviationMicrosecondsPerInvocation="11564"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="71" invocations="32" avgMicrosecondsPerInvocation="2233" maxMicrosecondsPerInvocation="10847" standardDeviationMicrosecondsPerInvocation="3270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="69" invocations="16" avgMicrosecondsPerInvocation="4371" maxMicrosecondsPerInvocation="45598" standardDeviationMicrosecondsPerInvocation="10838"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.CrlfLogInjectionDetector" totalMilliseconds="67" invocations="16" avgMicrosecondsPerInvocation="4245" maxMicrosecondsPerInvocation="37719" standardDeviationMicrosecondsPerInvocation="8739"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.ExternalConfigurationControlDetector" totalMilliseconds="66" invocations="16" avgMicrosecondsPerInvocation="4148" maxMicrosecondsPerInvocation="35485" standardDeviationMicrosecondsPerInvocation="8191"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="65" invocations="16" avgMicrosecondsPerInvocation="4065" maxMicrosecondsPerInvocation="29275" standardDeviationMicrosecondsPerInvocation="6719"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="64" invocations="32" avgMicrosecondsPerInvocation="2023" maxMicrosecondsPerInvocation="7179" standardDeviationMicrosecondsPerInvocation="1939"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="64" invocations="53" avgMicrosecondsPerInvocation="1210" maxMicrosecondsPerInvocation="36582" standardDeviationMicrosecondsPerInvocation="4976"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationValueDetector" totalMilliseconds="64" invocations="16" avgMicrosecondsPerInvocation="4000" maxMicrosecondsPerInvocation="31050" standardDeviationMicrosecondsPerInvocation="7075"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.CipherWithNoIntegrityDetector" totalMilliseconds="62" invocations="16" avgMicrosecondsPerInvocation="3887" maxMicrosecondsPerInvocation="34573" standardDeviationMicrosecondsPerInvocation="9428"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="59" invocations="32" avgMicrosecondsPerInvocation="1874" maxMicrosecondsPerInvocation="37026" standardDeviationMicrosecondsPerInvocation="6399"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.HttpResponseSplittingDetector" totalMilliseconds="59" invocations="16" avgMicrosecondsPerInvocation="3691" maxMicrosecondsPerInvocation="27415" standardDeviationMicrosecondsPerInvocation="6246"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.HttpClientProblems" totalMilliseconds="57" invocations="16" avgMicrosecondsPerInvocation="3617" maxMicrosecondsPerInvocation="37708" standardDeviationMicrosecondsPerInvocation="9091"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="57" invocations="32" avgMicrosecondsPerInvocation="1807" maxMicrosecondsPerInvocation="18652" standardDeviationMicrosecondsPerInvocation="3614"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="56" invocations="32" avgMicrosecondsPerInvocation="1768" maxMicrosecondsPerInvocation="7938" standardDeviationMicrosecondsPerInvocation="2336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="56" invocations="920" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="23318" standardDeviationMicrosecondsPerInvocation="810"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.NonProductiveMethodCall" totalMilliseconds="55" invocations="16" avgMicrosecondsPerInvocation="3475" maxMicrosecondsPerInvocation="39160" standardDeviationMicrosecondsPerInvocation="9404"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="54" invocations="16" avgMicrosecondsPerInvocation="3433" maxMicrosecondsPerInvocation="36033" standardDeviationMicrosecondsPerInvocation="8445"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.SillynessPotPourri" totalMilliseconds="54" invocations="16" avgMicrosecondsPerInvocation="3411" maxMicrosecondsPerInvocation="34548" standardDeviationMicrosecondsPerInvocation="8104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="51" invocations="32" avgMicrosecondsPerInvocation="1621" maxMicrosecondsPerInvocation="20577" standardDeviationMicrosecondsPerInvocation="3806"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.AssertionMethodsFactory" totalMilliseconds="51" invocations="16" avgMicrosecondsPerInvocation="3230" maxMicrosecondsPerInvocation="48402" standardDeviationMicrosecondsPerInvocation="11666"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetector" totalMilliseconds="51" invocations="16" avgMicrosecondsPerInvocation="3221" maxMicrosecondsPerInvocation="17318" standardDeviationMicrosecondsPerInvocation="4095"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.detect.ImmatureClass" totalMilliseconds="45" invocations="16" avgMicrosecondsPerInvocation="2868" maxMicrosecondsPerInvocation="20466" standardDeviationMicrosecondsPerInvocation="4863"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.ldap.LdapEntryPoisoningDetector" totalMilliseconds="44" invocations="16" avgMicrosecondsPerInvocation="2780" maxMicrosecondsPerInvocation="34645" standardDeviationMicrosecondsPerInvocation="8234"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.csrf.SpringCsrfProtectionDisabledDetector" totalMilliseconds="44" invocations="16" avgMicrosecondsPerInvocation="2768" maxMicrosecondsPerInvocation="35729" standardDeviationMicrosecondsPerInvocation="8515"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.jsp.JspIncludeDetector" totalMilliseconds="43" invocations="16" avgMicrosecondsPerInvocation="2714" maxMicrosecondsPerInvocation="35485" standardDeviationMicrosecondsPerInvocation="8464"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="42" invocations="32" avgMicrosecondsPerInvocation="1343" maxMicrosecondsPerInvocation="16291" standardDeviationMicrosecondsPerInvocation="3638"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="42" invocations="32" avgMicrosecondsPerInvocation="1335" maxMicrosecondsPerInvocation="13603" standardDeviationMicrosecondsPerInvocation="2589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="41" invocations="5504" avgMicrosecondsPerInvocation="7" maxMicrosecondsPerInvocation="198" standardDeviationMicrosecondsPerInvocation="8"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="41" invocations="16" avgMicrosecondsPerInvocation="2592" maxMicrosecondsPerInvocation="34142" standardDeviationMicrosecondsPerInvocation="8149"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PredictableRandomDetector" totalMilliseconds="41" invocations="16" avgMicrosecondsPerInvocation="2586" maxMicrosecondsPerInvocation="32455" standardDeviationMicrosecondsPerInvocation="7715"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.template.FreemarkerDetector" totalMilliseconds="41" invocations="16" avgMicrosecondsPerInvocation="2567" maxMicrosecondsPerInvocation="35077" standardDeviationMicrosecondsPerInvocation="8396"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ldap.LdapInjectionDetector" totalMilliseconds="40" invocations="16" avgMicrosecondsPerInvocation="2548" maxMicrosecondsPerInvocation="9856" standardDeviationMicrosecondsPerInvocation="2160"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="39" invocations="16" avgMicrosecondsPerInvocation="2468" maxMicrosecondsPerInvocation="7816" standardDeviationMicrosecondsPerInvocation="1692"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="39" invocations="16" avgMicrosecondsPerInvocation="2447" maxMicrosecondsPerInvocation="22958" standardDeviationMicrosecondsPerInvocation="5361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="38" invocations="16" avgMicrosecondsPerInvocation="2414" maxMicrosecondsPerInvocation="30900" standardDeviationMicrosecondsPerInvocation="7361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="38" invocations="32" avgMicrosecondsPerInvocation="1200" maxMicrosecondsPerInvocation="25027" standardDeviationMicrosecondsPerInvocation="4324"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context 
+ 
+ 
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+
+
+	<context:component-scan base-package="com.phonebook.awinas" />
+
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+		<property name="url"
+			value="jdbc:sqlserver://10.4.48.18:1433;databaseName=BPIGTN_TRAINEE" />
+		<property name="username" value="Awinas" />
+		<property name="password" value="^D$b2K5!3" />
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.jdbc.batch_size">100</prop>
+				<prop key="hibernate.connection.autocommit">false</prop>
+			</props>
+		</property>
+
+		<property name="mappingResources">
+			<list>
+				<!-- <value>/login.hbm.xml</value> -->
+				<value>/login.hbm.xml</value>
+				<value>/Usercontactdetails.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- <bean id="userService" class="com.phonebook.awinas.dao.LoginDao"> </bean> 
+		<bean id="signUpController" class="com.phonebook.awinas.controllers.SignUpController"> 
+		</bean> -->
+	<bean id="phonebook" class="com.stpl.gtn.gtn2o.ws.phonebook.UserDetails">
+
+	</bean>
+	<bean id="contactbook" class="com.stpl.gtn.gtn2o.ws.phonebook.UserContactDetails">
+
+	</bean>
+
+</beans>

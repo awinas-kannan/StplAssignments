@@ -1,0 +1,8 @@
+com\phonebook\awinas\GtnFrameworkViewContactActionTest.class
+com\phonebook\awinas\GtnFrameworkEditContactActionTest.class
+com\phonebook\awinas\UiTest.class
+com\phonebook\awinas\GtnFrameworkAddContactActionTest.class
+com\phonebook\awinas\GtnFrameworkUserSignUpActionTest.class
+com\phonebook\awinas\GtnFrameworkUpdateContactActionTest.class
+com\phonebook\awinas\GtnFrameworkDeleteContactActionTest.class
+com\phonebook\awinas\GtnFrameworkUserLoginActionTest.class
