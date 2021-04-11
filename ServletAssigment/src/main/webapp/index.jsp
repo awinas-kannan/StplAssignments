@@ -1,6 +1,8 @@
 <html>
 <body>
 
+
+<!-- http://localhost:8080/ServletAssigment/ -->
 	<h2>STUDENT DATABASE</h2>
 	
 	
