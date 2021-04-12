@@ -1,0 +1,201 @@
+GIT:
+STS - > Clone new repository
+
+TO add new projecy : Team -> Share project
+
+Maven :
+POM.xml -> Entry point for maven
+<packaging>war</packaging>
+Goals:
+Clean install  -> clean the target folder and download all dependencies from repo
+Clean compile package --> deletes the targets .. compiles the project (.class file ) packages it ( jar /war)
+
+General - >editor  -> file association : FOr adding decompile ( download from market place : eclipse class decompiler)
+
+Sysbiz Assignments:
+
+##################JDBC:Interface to communicate with relational database
+
+Connection c = DriverManager.getConnection(URL,UNAME,PRO.getProperty(PASS));
+public static final String URL = "jdbc:sqlserver://MSSQL-DEV:1433;databaseName=BPIGTN_TRAINEE";
+DriverManager.getConnection ::  -> This gives conection based on the URL ( sql servef / oracle sql .....)
+PreparedStatement st =connect.prepareStatement(query); 
+ResultSet rst = st.executeQuery();  //rst.next();  -> to get rows
+
+Add / Delete / Update :  st.executeUpdate();
+Select : st.executeQuery();
+
+Web.xml : Entry point of web appliaction {{{ Dispatcher Servlet }}
+################Servlets :  Check stpl project & servlet&filter project & servletlistner project
+
+init()
+service()  -> contains doGet() doPost() doDelete ... We have to override it
+destroy()
+
+AddController extends HttpServlet 
+In order for the Servlet to receive the username from the form, 
+request.getParameter method should be used to get the value entered by the user.
+
+
+Check Slide no : 28 to know the work flow of servlets
+
+
+
+###############Spring: Ref sysbiz slides Workflow : Slide :15 & 24
+<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>/</url-pattern>
+</servlet-mapping>
+
+springmvc-servlet.xml is created {{{ Dispatcher Servlet }}}... file name should be same as servlet name in web.xml
+
+<mvc:annotation-driven/>
+<context:component-scan base-package="com.project.awinas"/>  %%%%% For scanning annotation in the given input package
+
+MVC : Model View controller
+Model - data
+View - Jsp
+Controller - Request mapping
+
+@Controller --> denotes that the class is controller
+@RequestMapping("/Login")  -> Just like servlet mapping  //@RequestMapping(value = "/UserInputController.htm", method = RequestMethod.GET)
+
+Spring Dependency injection : Spring dependency injection framework acts an agent for object creation
+
+Application-context.xml -- > Bean creation
+
+<bean id="StudentRepository" class="com.stpl.trainee.StudentRepository">
+		<property name="dbconnection" ref="DBConnection" />
+</bean>
+
+<bean id="DBConnection" class="com.stpl.trainee.DBConnection">
+		<property name="connectionString" value="jdbc:mysql://localhost:3306/test"/>
+		<property name="connectionString" value="root"/>
+		<property name="connectionString" value="root"/>
+</bean>
+
+Here StudentRepository is dependent on DBConnection
+
+----------------
+
+@Autowired - Automatically detects dependencies
+If we use like  below  code in StudentRepository class , then we dont need to add property tag for StudentRepository in Application-context.xml
+@Autowired
+private DBConnection dbconnection = null;
+
+<bean id="StudentRepository" class="com.stpl.trainee.StudentRepository">
+		<property name="dbconnection" ref="DBConnection" /> %%%%%%%%%%%%%%%% THis line is not needed if DBConnection is autowired
+</bean>
+	
+We need two things to achieve this
+
+1) We need to use Autowired annotation above the property for which spring has to automatically inject.
+2) Add context component scan tag in beans xml
+
+##DispatcherServlet
+MVC annotation driven tag need to be used when you define Controller classes with @Controller annotation.
+Context component scan tag will be used to specify under which package Controllers needed to be scanned.
+View Resolver bean will be configured to specify the path where JSP files need to be looked.
+	
+
+Dependencies Required ::::	4.3.5.RELEASE 1) spring-core 2)spring-context 3)spring-web 4)spring-webmvc
+<dependencies>
+
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-core</artifactId>
+<version>4.3.5.RELEASE</version>
+</dependency>
+
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-context</artifactId>
+<version>4.3.5.RELEASE</version>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-web</artifactId>
+	<version>4.3.5.RELEASE</version>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-webmvc</artifactId>
+	<version>4.3.5.RELEASE</version>
+</dependency>
+
+</dependencies>
+	
+	
+##################### Hibernate  Slide no : 6 
+//Hibernate is ORM Persistence framework. //ORM means Object to Relational Mapping  
+
+<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property> --> Incase DB Has to be change.. we can change here
+
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>4.1.6.Final</version>
+</dependency>	
+	
+Flexiblity with data bases
+By skipping the SQL query phase, flexibility can be achieved.
+
+With normal JDBC, the SQL query is generated and executed, which is dependent on software’s like Oracle, MS SQL, MY SQL, etc.
+So, tomorrow, if there is a need to support a new database, the code has to be changed according to that database.
+As we saw in the previous slides, if ORM is used to save data, constructing the queries based on the database can be avoided.
+By doing so, if there is a need to support a new database tomorrow, there will be minimal coding changes and more configuration changes. 
+This is one of the many advantages of using ORM framework.
+
+
+hibernate.cfg.xml  --> Entry point 
+<session-factory> is built form this xml only
+Sessions are created from session factory
+Session in hibernate === connection in JDBC
+Java COde ::::
+Configuration configuration = new Configuration().configure("/hibernate.cfg.xml");
+SessionFactory sessionFactory = configuration.buildSessionFactory();
+Session session = sessionFactory.openSession();
+Transaction trx = session.beginTransaction();
+session.update(asm);
+trx.commit();
+		
+
+		
+Two ways of mapping table with Java object
+1)<hibernate-mapping> file ((hbm file))
+2)Annotation in java beans
+		
+@Entity  --> To say that this is an table
+@Table(name="logintable")
+
+@Id   ----> Primary key
+@Column(name="ID") --> Data base column name
+private int id;
+ 
+	
+session.save(object); --> save object to db //, hibernate generates SQL queries and inserts into a table.
+session.createQuery(ranksortquery).list()  --> Returns list
+session.createQuery(updatestring).executeUpdate();	 --> Update | delete
+(StudentModel) session.get(StudentModel.class, id);  --> Get student based on id
+session.createQuery(deletequery).executeUpdate(); --> Delete  /// return count ( 0 if nothing delete or numner of rows deleted
+session.update(object); --> 	Update based in Pk ( id)
+
+
+//Ref phone book project // 	
+Criteria
+Critterion
+conjuection
+logical expression	
+
+**********************************************************************************
+@RestController => @Controller + @ResponseBody {{ @Component is presentin @Controller}}
+@RequestBody => Input {{public String add(@RequestBody StudentModel asm)}}
+
+
+@Service => has @Component
